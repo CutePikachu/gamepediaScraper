@@ -51,6 +51,8 @@ class ItemScraper {
                 .ignoreContentType(true)
                 .get();
         Element el = document.getElementById("mw-content-text");
+
+        item.setLink(baseUrl+url);
         // get description
         item.setDescription(el.getElementsByTag("p").get(0).text());
         item.setName(url.substring(1));
@@ -61,6 +63,7 @@ class ItemScraper {
         String imageUrl = images.get(0).attr("src");
         String image = downloadImage(imageUrl, imageDir);
         item.setImage((image));
+
         return item;
     }
 }

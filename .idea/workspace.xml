@@ -1,7 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6be72b02-dfa5-457f-a689-81b42696f24c" name="Default Changelist" comment="" />
+    <list default="true" id="6be72b02-dfa5-457f-a689-81b42696f24c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java/images/Stub.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/Stub.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/CsvWriter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/CsvWriter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/Item.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/Item.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/ItemScraper.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/ItemScraper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/ItemsScraper.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/ItemsScraper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/META-INF/java.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/items.csv" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/items.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CsvWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CsvWriter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Item.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ItemScraper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ItemScraper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ItemsScraper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ItemsScraper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/items.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/items.csv" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +36,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -23,7 +47,10 @@
     </option>
   </component>
   <component name="ProjectId" id="1Zk7jHoAqZ1HC4kKAMR9PIvtRiq" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunDashboard">
@@ -56,7 +83,7 @@
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="java" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="PROGRAM_PARAMETERS" value="$PROJECT_DIR$/src/images $PROJECT_DIR$/src/items.csv" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
       <method v="2">
@@ -88,5 +115,18 @@
       <updated>1585371371655</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

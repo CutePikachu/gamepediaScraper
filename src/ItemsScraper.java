@@ -22,7 +22,6 @@ public class ItemsScraper {
         for (Element e: elementByClass) {
             Elements things = e.getElementsByTag("a");
             for (Element t: things) items.add(t.attr("href"));
-//            System.out.println(e.getElementsByTag("a").attr("href"));
         }
 
         return items;

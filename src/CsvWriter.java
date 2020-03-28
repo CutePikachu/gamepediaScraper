@@ -19,12 +19,12 @@ public class CsvWriter {
             CSVWriter writer = new CSVWriter(outputfile);
 
             // adding header to csv
-            String[] header = { "Name", "Description", "Image" };
+            String[] header = { "Name", "Description", "Image", "link"};
             writer.writeNext(header);
 
             // add data to csv
             for (Item item: items) {
-                String[] data = { item.getName(), item.getDescription(), item.getImage() };
+                String[] data = { item.getName(), item.getDescription(), item.getImage(), item.getLink() };
                 writer.writeNext(data);
             }
             writer.close();

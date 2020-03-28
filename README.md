@@ -1,7 +1,6 @@
 # gamepediaScraper
 1. Download the repo
-2. open folder `src`
-3. open terminal, `cd` to the directory where `main.java` exists
-4. use
- ```javac main.java```
- ```java main```
+2. open it with IntelliJ
+3. open folder `src` and install all dependencies
+4. add path of the directory you want to store the images and the path csv file to the program configuration as the first and second argument. 
+5. click run
